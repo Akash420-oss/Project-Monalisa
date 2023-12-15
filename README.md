@@ -24,7 +24,7 @@ It will ask you some questions and you have to give the answers of it because yo
 It will run only Linux Machine.
 
 ### Requirements
-Make sure you have Gnome Terminal, Firefox, Wireshark, Proxychains  on your linux machine.
+Make sure you have Gnome Terminal, Firefox, Wireshark and Proxychains  on your linux machine.
 * If you are in Debian based linux.
 ```sh
 apt-get update -y && apt-get install gnome-terminal firefox wireshark -y
