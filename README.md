@@ -43,3 +43,5 @@ git clone https://github.com/Akash420-oss/project-monalisa.git
 pip install -r requirements.txt
 ```
  
+## Contact
+Akash Sil - [https://www.linkedin.com/in/akash-sil-102481216/]
