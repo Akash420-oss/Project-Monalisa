@@ -38,3 +38,8 @@ pacman -Syu && pacman -S gnome-terminal firefox wireshark
 ```sh
 git clone https://github.com/Akash420-oss/project-monalisa.git
 ```
+2. After that go to the directory then install the all files from requirements.txt via pip.
+```sh
+pip install -r requirements.txt
+```
+ 
