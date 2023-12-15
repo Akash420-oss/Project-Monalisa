@@ -1,0 +1,9 @@
+scapy
+termcolor
+prettytable
+progressbar
+rich
+awesome-progress-bar
+python-nmap
+treelib
+distro
