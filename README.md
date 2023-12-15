@@ -45,4 +45,4 @@ pip install -r requirements.txt
  
 ## Contact
 Akash Sil - [ https://www.linkedin.com/in/akash-sil-102481216/ ]
-Akash Sil - [ https://www.facebook.com/akash.sil.5851 ]
+Facebook - [ https://www.facebook.com/akash.sil.5851 ]
