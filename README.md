@@ -33,4 +33,8 @@ apt-get update -y && apt-get install gnome-terminal firefox wireshark -y
 ```sh
 pacman -Syu && pacman -S gnome-terminal firefox wireshark
 ```
-
+### Installation
+1. Clone the repo
+```sh
+git clone https://github.com/Akash420-oss/project-monalisa.git
+```
