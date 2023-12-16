@@ -21,7 +21,7 @@ It will ask you some questions and you have to give the answers of it because yo
 * Shell Script
 
 ## Getting Started
-It will run only Linux Machine.
+It will run only on Linux Machine.
 
 ### Requirements
 Make sure you have Gnome Terminal, Firefox, Wireshark and Proxychains  on your linux machine.
