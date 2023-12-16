@@ -42,6 +42,10 @@ git clone https://github.com/Akash420-oss/project-monalisa.git
 ```sh
 pip install -r requirements.txt
 ```
+3. Then run this command.
+```sh
+sudo python3 mona.py
+```
  
 ## Contact
 * Linkedin - https://www.linkedin.com/in/akash-sil-102481216/ 
