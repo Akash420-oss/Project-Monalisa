@@ -27,11 +27,11 @@ It will run only on Linux Machine.
 Make sure you have Gnome Terminal, Firefox, Wireshark and Proxychains  on your linux machine.
 * If you are in Debian based linux.
 ```sh
-sudo apt-get update -y && apt-get install gnome-terminal firefox wireshark proxychains4 -y
+sudo apt-get update -y && apt-get install gnome-terminal firefox wireshark -y
 ```
 * If you are in Arch based linux.
 ```sh
-sudo pacman -Syu && pacman -S gnome-terminal firefox wireshark proxychains
+sudo pacman -Syu --noconfirm && pacman -S gnome-terminal firefox wireshark --noconfirm
 ```
 ### Installation
 1. Clone the repo
@@ -40,7 +40,7 @@ git clone https://github.com/Akash420-oss/project-monalisa.git
 ```
 2. After that go to the directory then install the all files from requirements.txt via pip.
 ```sh
-pip install -r requirements.txt
+sudo pip install -r requirements.txt
 ```
 3. Then run this command.
 ```sh
