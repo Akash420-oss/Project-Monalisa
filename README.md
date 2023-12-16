@@ -27,11 +27,11 @@ It will run only Linux Machine.
 Make sure you have Gnome Terminal, Firefox, Wireshark and Proxychains  on your linux machine.
 * If you are in Debian based linux.
 ```sh
-apt-get update -y && apt-get install gnome-terminal firefox wireshark -y
+sudo apt-get update -y && apt-get install gnome-terminal firefox wireshark proxychains4 -y
 ```
 * If you are in Arch based linux.
 ```sh
-pacman -Syu && pacman -S gnome-terminal firefox wireshark
+sudo pacman -Syu && pacman -S gnome-terminal firefox wireshark proxychains
 ```
 ### Installation
 1. Clone the repo
