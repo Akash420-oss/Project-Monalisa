@@ -1,3 +1,4 @@
+#!/usr/bin/python
 from scapy.all import *
 from time import sleep as s
 from prettytable import PrettyTable as tabular
