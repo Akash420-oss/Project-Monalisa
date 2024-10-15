@@ -8,6 +8,7 @@ It is a Networking based Project
    * [Requirements](#requirements)
    * [Installation](#installation-guide)
 * [Contact](#contact)
+* [License](#license)
 * [Hack The Planet...😉](#wishes) 
 
 ## What is it 🤔?
@@ -50,6 +51,10 @@ Make sure you have Gnome Terminal, Firefox, Wireshark and Proxychains  on your l
 ## Contact
 * Linkedin - https://www.linkedin.com/in/akash-sil-102481216/ 
 * Mail - akashsil420@duck.com
+  
+## License
+  This project is licensed under the [![MIT License][license-shield]][https://github.com/Akash420-oss/Project-Monalisa/blob/main/LICENSE]
+  
 ## Hack The Planet...😉
 * I Hope You will like it...😉 
 * So, break the security buddy...😎
