@@ -53,7 +53,8 @@ Make sure you have Gnome Terminal, Firefox, Wireshark and Proxychains  on your l
 * Mail - akashsil420@duck.com
   
 ## License
-  This project is licensed under the [![MIT License][license-shield]][https://github.com/Akash420-oss/Project-Monalisa/blob/main/LICENSE]
+This project is licensed under the MIT License.
+* [![MIT License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/Akash420-oss/Project-Monalisa/blob/main/LICENSE)
   
 ## Hack The Planet...😉
 * I Hope You will like it...😉 
