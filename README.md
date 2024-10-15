@@ -18,8 +18,8 @@ It will ask you some questions and you have to give the answers of it because yo
 
 
 ### Built With
-* Python
-* Shell Script
+* ![Python](https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue)
+* ![Shell Script](https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white)
 
 ## Getting Started
 It will run only on Linux Machine.
