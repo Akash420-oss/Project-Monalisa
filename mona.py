@@ -3208,7 +3208,7 @@ else:
   if path.isdir(directory)==True:
      pass
   else:
-     system("mkdir f'{directory}'")
+     system(f"mkdir {directory}")
         
   system('clear')
   D=Design()
