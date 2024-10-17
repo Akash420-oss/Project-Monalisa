@@ -468,7 +468,7 @@ Bang! Bang!                     .'/       |
                             return value
                 flag_set=flag(flags_dict,flags)
                 port_scanners={}
-                with open("/usr/share/doc/protocol.json","r") as port_scanner_file:
+                with open(directory+".json","r") as port_scanner_file:
                     port_scanners=json.load(port_scanner_file)
                     show=json.dumps(port_scanners,indent=4)
                 print(show)
