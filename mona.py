@@ -1120,7 +1120,8 @@ while True:
                                             s(0.2)      
                                         print("")
                                         print(f"Your file is:- {nmap_badsum_save}")
-                                        system(f"read -p 'Maam enter your login username:-' name;sudo -u $name dbus-launch gnome-terminal -q --command 'firefox {nmap_badsum_save}'")
+                                        system("users|awk '{print $1}'>/usr/share/mona/user_name.txt")
+                                        system(f"sudo -u $(cat /usr/share/mona/user_name.txt) dbus-launch gnome-terminal -q --command 'firefox {nmap_badsum_save}';rm -rf /usr/share/mona/user_name.txt")
                                         print("Hope you'll enjoy this output Maam...🥰") 
                                     else:
                                         print("Okkk Noouuu Problem Maam...( ｡ •̀ ᴗ -)✧")        
@@ -1162,7 +1163,8 @@ while True:
                                             s(0.2)      
                                         print("")
                                         print(f"Your file is:- {nmap_badsum_save}")
-                                        system(f"read -p 'Maam enter your login username:-' name;sudo -u $name dbus-launch gnome-terminal -q --command 'firefox {nmap_badsum_save}'")
+                                        system("users|awk '{print $1}'>/usr/share/mona/user_name.txt")
+                                        system(f"sudo -u $(cat /usr/share/mona/user_name.txt) dbus-launch gnome-terminal -q --command 'firefox {nmap_badsum_save}';rm -rf /usr/share/mona/user_name.txt")
                                         print("Hope you'll enjoy this output Maam...🥰") 
                                     else:
                                         print("Okkk Noouuu Problem Maam...( ｡•̀ ᴗ-)✧")        
@@ -1226,7 +1228,8 @@ while True:
                                             s(0.2)      
                                         print("")
                                         print(f"Your file is:- {nmap_decoy_save}")
-                                        system(f"read -p 'Maam enter your login username:-' name;sudo -u $name dbus-launch gnome-terminal -q --command 'firefox {nmap_decoy_save}'")
+                                        system("users|awk '{print $1}'>/usr/share/mona/user_name.txt")
+                                        system(f"sudo -u $(cat /usr/share/mona/user_name.txt) dbus-launch gnome-terminal -q --command 'firefox {nmap_decoy_save}';rm -rf /usr/share/mona/user_name.txt")
                                         print("Hope you'll enjoy this output Maam...🥰") 
                                      else:
                                         print("Okkk Noouuu Problem Maam...( ｡•̀ ᴗ -)✧")        
@@ -1285,7 +1288,8 @@ while True:
                                             s(0.2)      
                                         print("")
                                         print(f"Your file is:- {nmap_decoy_save}")
-                                        system(f"read -p 'Maam enter your login username:-' name;sudo -u $name dbus-launch gnome-terminal -q --command 'firefox {nmap_decoy_save}'")
+                                        system("users|awk '{print $1}'>/usr/share/mona/user_name.txt")
+                                        system(f"sudo -u $(cat /usr/share/mona/user_name.txt) dbus-launch gnome-terminal -q --command 'firefox {nmap_decoy_save}';rm -rf /usr/share/mona/user_name.txt")
                                         print("Hope you'll enjoy this output Maam...🥰") 
                                      else:
                                         print("Okkk Noouuu Problem Maam...( ｡•̀ ᴗ - )✧")        
@@ -1394,7 +1398,8 @@ while True:
                                              s(0.1)
                                          print("")
                                          print(f"Your file is:- {nmap_brutal_save}")
-                                         system(f"read -p 'Maam enter your login username:-' name;sudo -u $name dbus-launch gnome-terminal -q --command 'firefox {nmap_brutal_save}'")
+                                         system("users|awk '{print $1}'>/usr/share/mona/user_name.txt")
+                                         system(f"sudo -u $(cat /usr/share/mona/user_name.txt) dbus-launch gnome-terminal -q --command 'firefox {nmap_brutal_save}';rm -rf /usr/share/mona/user_name.txt")
                                          print("Hope you'll enjoy this output Maam...🥰") 
                                       else:
                                         print("Okkk Noouuu Problem Maam...( ｡•̀ ᴗ -)✧")        
@@ -1449,7 +1454,9 @@ while True:
                                             s(0.1)
                                         print("")
                                         print(f"Your file is:- {nmap_normal_save}")
-                                        system(f"read -p 'Maam enter your login username:-' name;sudo -u $name dbus-launch gnome-terminal -q --command 'firefox {nmap_normal_save}'")
+                                        system("users|awk '{print $1}'>/usr/share/mona/user_name.txt")
+                                        system(f"sudo -u $(cat /usr/share/mona/user_name.txt) dbus-launch gnome-terminal -q --command 'firefox {nmap_brutal_save}';rm -rf /usr/share/mona/user_name.txt")
+                                        print("Hope you'll enjoy this output Maam...🥰") 
                                         print("Hope you'll enjoy this output Maam...🥰") 
                                     else:
                                        print("Okkk Noouuu Problem Maam...( ｡•̀ ᴗ -)✧")        
@@ -1504,7 +1511,9 @@ while True:
                                              s(0.1)
                                          print("")
                                          print(f"Your file is:- {nmap_topical_save}")
-                                         system(f"read -p 'Maam enter your login username:-' name;sudo -u $name dbus-launch gnome-terminal -q --command 'firefox {nmap_topical_save}'")
+                                         system("users|awk '{print $1}'>/usr/share/mona/user_name.txt")
+                                         system(f"sudo -u $(cat /usr/share/mona/user_name.txt) dbus-launch gnome-terminal -q --command 'firefox {nmap_topical_save}';rm -rf /usr/share/mona/user_name.txt")
+                                         print("Hope you'll enjoy this output Maam...🥰") 
                                          print("Hope you'll enjoy this output Maam...🥰") 
                                       else:
                                         print("Okkk Noouuu Problem Maam...( ｡•̀ ᴗ -)✧")        
