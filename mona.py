@@ -3117,7 +3117,7 @@ ____________------------                        -------------_________
                         tshark_save=input("Do you want to save it in a file[y/n]:- ")
                         if bool(name_interface)==True or tshark_save=='y':
                             tshark_file_name=input("Maam Please enter the file name ♡´･ᴗ･`♡ :- ")
-                            tshark_file=tshark_file_name+".pcap"
+                            tshark_file=directory+tshark_file_name+".pcap"
                             if bool(name_interface)==True:
                                 system(f"tshark -c {num_of_pkts} -i {name_interface} host {ip1} and port {port_check} and {protocol_name} >> {tshark_file}")
                             else:
