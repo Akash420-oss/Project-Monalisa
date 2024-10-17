@@ -782,7 +782,7 @@ if recv_bool==True:
              D.server_type()
              server_input=int(input("Maam Which type of server you want to Choose in Socket Programing..🤗:- "))
              inp_server=input("Now please give a suitable name for a Server file (◠‿◕) :- ")
-             tcp_udp_server=inp_server+".py"
+             tcp_udp_server=directory+inp_server+".py"
              if server_input==3:
                 tcp_file="""
 from socket import socket,AF_INET,SOCK_STREAM,SHUT_RD,SHUT_WR
@@ -1108,7 +1108,7 @@ while True:
                                         v=json.dumps(value,indent=4)
                                         print(key,"=>",v)
                                     nmap_badsum_1=input("Do you want to save it in a file then give a suitable name or simply you can leave it if you don't want( ◜ ‿ ◝ )♡:- ")
-                                    nmap_badsum_save=nmap_badsum_1+".json"
+                                    nmap_badsum_save=directory+nmap_badsum_1+".json"
                                     if bool(nmap_badsum_1)==True:
                                         with open(nmap_badsum_save,"w") as save_file:
                                              inp=json.dumps(bad_checksum,indent=4)
@@ -1150,7 +1150,7 @@ while True:
                                         v=json.dumps(value,indent=4)
                                         print(key,"=>",v)
                                     nmap_badsum_1=input("Do you want to save it in a file then give a suitable name or simply you can leave it if you don't want( ◜ ‿ ◝ )♡:- ")
-                                    nmap_badsum_save=nmap_badsum_1+".json"
+                                    nmap_badsum_save=directory+nmap_badsum_1+".json"
                                     if bool(nmap_badsum_1)==True:
                                         with open(nmap_badsum_save,"w") as save_file:
                                              inp=json.dumps(bad_checksum,indent=4)
@@ -1214,7 +1214,7 @@ while True:
                                          v=json.dumps(value,indent=4)
                                          print(key,"=>",v)
                                      nmap_decoy_1=input("Do you want to save it in a file then give a suitable name or simply you can leave it if you don't want( ◜ ‿ ◝ )♡:- ")
-                                     nmap_decoy_save=nmap_decoy_1+".json"
+                                     nmap_decoy_save=directory+nmap_decoy_1+".json"
                                      if bool(nmap_decoy_1)==True:
                                         with open(nmap_decoy_save,"w") as save_file:
                                              inp=json.dumps(decoy_scan,indent=4)
@@ -1273,7 +1273,7 @@ while True:
                                          v=json.dumps(value,indent=4)
                                          print(key,"=>",v)
                                      nmap_decoy_1=input("Do you want to save it in a file then give a suitable name or simply you can leave it if you don't want( ◜ ‿ ◝ )♡:- ")
-                                     nmap_decoy_save=nmap_decoy_1+".json"
+                                     nmap_decoy_save=directory+nmap_decoy_1+".json"
                                      if bool(nmap_decoy_1)==True:
                                         with open(nmap_decoy_save,"w") as save_file:
                                              inp=json.dumps(decoy_scan,indent=4)
@@ -1382,7 +1382,7 @@ while True:
                                       v=json.dumps(value,indent=4)
                                       print(key,"=>",v)
                                       nmap_brutal_1=input("Do you want to save it in a file then give a suitable name or simply you can leave it if you don't want( ◜ ‿ ◝ )♡:- ")
-                                      nmap_brutal_save=nmap_brutal_1+".json"
+                                      nmap_brutal_save=directory+nmap_brutal_1+".json"
                                       if bool(nmap_brutal_1)==True:
                                          with open(nmap_brutal_save,"w") as save_file:
                                               inp=json.dumps(brutal_attack,indent=4)
@@ -1437,7 +1437,7 @@ while True:
                                         v=json.dumps(value,indent=4)
                                         print(key,"=>",v)
                                     nmap_normal_1=input("Do you want to save it in a file then give a suitable name or simply you can leave it if you don't want( ◜ ‿ ◝ )♡:- ")
-                                    nmap_normal_save=nmap_normal_1+".json"
+                                    nmap_normal_save=directory+nmap_normal_1+".json"
                                     if bool(nmap_normal_1)==True:
                                         with open(nmap_normal_save,"w") as save_file:
                                             inp=json.dumps(normal_attack,indent=4)
@@ -1492,7 +1492,7 @@ while True:
                                       v=json.dumps(value,indent=4)
                                       print(key,"=>",v)
                                       nmap_topical_1=input("Do you want to save it in a file then give a suitable name or simply you can leave it if you don't want( ◜ ‿ ◝ )♡:- ")
-                                      nmap_topical_save=nmap_topical_1+".json"
+                                      nmap_topical_save=directory+nmap_topical_1+".json"
                                       if bool(nmap_topical_1)==True:
                                          with open(nmap_topical_save,"w") as save_file:
                                               inp=json.dumps(topical_attack,indent=4)
@@ -2162,7 +2162,7 @@ while True:
                                    tcp_save=input("Do you want to save it in a file maam( ✿ ^ ‿ ^ ) [y/n]:- ")
                                    if tcp_save=='y':
                                       tcp_mul_s=input("Maam plz set the file name that you want to save it ( ◍ • ᴗ • ◍ )❤ :- ")
-                                      tcp_mul_save=tcp_mul_s+".txt"
+                                      tcp_mul_save=directory+tcp_mul_s+".txt"
                                       with open(tcp_mul_save,"w") as t:
                                           for g in tcp_attack[0]:
                                               t.write(str(g[1]))
@@ -2304,7 +2304,7 @@ while True:
                                    tcp_save=input("Do you want to save it in a file maam( ✿ ^ ‿ ^ ) [y/n]:- ")
                                    if tcp_save=='y':
                                       tcp_mul_s=input("Maam plz set the file name that you want to save it ( ◍ • ᴗ • ◍ )❤ :- ")
-                                      tcp_mul_save=tcp_mul_s+".txt"
+                                      tcp_mul_save=directory+tcp_mul_s+".txt"
                                       with open(tcp_mul_save,"w") as t:
                                           for g in tcp_attack[0]:
                                               t.write(str(g[1]))
@@ -2465,7 +2465,7 @@ while True:
                               udp_save=input("Do you want to save it in a file maam( ✿ ^ ‿ ^ ) [y/n]:- ")
                               if udp_save=='y':
                                  udp_mul_s=input("Maam plz set the file name that you want to save it ( ◜ ‿ ◝ )♡ :- ")
-                                 udp_mul_save=udp_mul_s+".txt"
+                                 udp_mul_save=directory+udp_mul_s+".txt"
                                  with open(udp_mul_save,"w") as u:
                                       for g in udp_attack[0]:
                                           u.write(str(g[1]))
