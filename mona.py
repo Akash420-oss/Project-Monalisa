@@ -2591,7 +2591,7 @@ while True:
                               udp_save=input("Do you want to save it in a file maam(✿ ^ ‿ ^ ) [y/n]:- ")
                               if udp_save=='y':
                                  udp_mul_s=input("Maam plz set the file name that you want to save it ( ◍ • ᴗ • ◍ ) ❤ :- ")
-                                 udp_mul_save=udp_mul_s+".txt"
+                                 udp_mul_save=directory+udp_mul_s+".txt"
                                  with open(udp_mul_save,"w") as u:
                                       for g in udp_attack[0]:
                                           u.write(str(g[1]))
@@ -2950,7 +2950,7 @@ ____________------------                        -------------_________
                        arp_sniff=sniff(prn=arp_callback,filter="arp",count=num_of_pkts,store=store_num,iface=interface_val)
                        if store_num==1:
                           arp_pcap=input("Okkk Maam enter the file name please (╹◡◠) :- ")
-                          arp_file=arp_pcap+".pcapng"
+                          arp_file=directory+arp_pcap+".pcapng"
                           with open(arp_file,"w") as arp_saver:
                                i=0
                                while i<num_of_pkts:
@@ -2983,7 +2983,7 @@ ____________------------                        -------------_________
                          tcp_sniff=sniff(prn=tcp_callback,filter="tcp",count=num_of_pkts,store=store_num,iface=interface_val)
                          if store_num==1:
                             tcp_pcap=input("Okkk Maam enter the file name please (╹◡◠) :- ")
-                            tcp_file=tcp_pcap+".pcapng"
+                            tcp_file=directory+tcp_pcap+".pcapng"
                             with open(tcp_file,"w") as tcp_saver:
                                  i=0
                                  while i<num_of_pkts:
@@ -3021,7 +3021,7 @@ ____________------------                        -------------_________
                         udp_sniff=sniff(prn=udp_callback,filter="udp",count=num_of_pkts,store=store_num,iface=interface_val)
                         if store_num==1:
                             udp_pcap=input("Okkk Maam enter the file name please (╹◡◠) :- ")
-                            udp_file=udp_pcap+".pcapng"
+                            udp_file=directory+udp_pcap+".pcapng"
                             with open(udp_file,"w") as udp_saver:
                                  i=0
                                  while i<num_of_pkts:
@@ -3047,7 +3047,7 @@ ____________------------                        -------------_________
                       counts=input("Maam Please set the number of packets that you wanna sniff (✿˶’◡˘)♡:- ")
                       tcpdump_save=input("Do you want to save it in a file then type filename only if not then blank it ಠ ‿↼ :- ")
                       if bool(tcpdump_save)==True:
-                         tcpdump_save_file=tcpdump_save+".json"
+                         tcpdump_save_file=directory+tcpdump_save+".json"
                          tcpdump_json=json.load(tcpdump(args=["-i",f"{name_interface}","-c",f"{counts}","-T","json"],flt=f"host {host1} and host {host2}",prog=conf.prog.tshark,getfd=True))
                          pprint.pprint(tcpdump_json)
                          tcpdump_json_file=json.dumps(tcpdump_json,indent=4)
