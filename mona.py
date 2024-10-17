@@ -3205,10 +3205,10 @@ else:
       s(0.25)  
   pre_style.stop()
   s(5)
-    if path.isdir(directory)==True:
-        pass
-    else:
-        system("mkdir f'{directory}'")
+  if path.isdir(directory)==True:
+     pass
+  else:
+     system("mkdir f'{directory}'")
         
   system('clear')
   D=Design()
