@@ -656,7 +656,7 @@ Bang! Bang!                     .'/       |
              D.client_type()
              client_input=int(input("In this field which type of client You wanna take...＼(^-^)／ :- "))
              inp_client=input("Please give a suitable name for client file Maam...♥~(◡ ‿◕ ✿) :- ")
-             tcp_udp_client=inp_client+".py"
+             tcp_udp_client="/usr/share/mona/"+inp_client+".py"
              if client_input==1:
                  tcp_client_prog="""
 from socket import socket,SHUT_RD
