@@ -15,8 +15,9 @@ from treelib import Tree
 from awesome_progress_bar import ProgressBar
 from termcolor import colored
 import subprocess as commander
-from os import system,name,getuid
+from os import system,name,getuid,path
 get_uid=getuid()
+directory="/usr/share/mona/"
 system('clear')
 s(1)
 virus_text="""
@@ -656,7 +657,7 @@ Bang! Bang!                     .'/       |
              D.client_type()
              client_input=int(input("In this field which type of client You wanna take...＼(^-^)／ :- "))
              inp_client=input("Please give a suitable name for client file Maam...♥~(◡ ‿◕ ✿) :- ")
-             tcp_udp_client="/usr/share/mona/"+inp_client+".py"
+             tcp_udp_client=directory+inp_client+".py"
              if client_input==1:
                  tcp_client_prog="""
 from socket import socket,SHUT_RD
@@ -3204,6 +3205,11 @@ else:
       s(0.25)  
   pre_style.stop()
   s(5)
+    if path.isdir(directory)==True:
+        pass
+    else:
+        system("mkdir f'{directory}'")
+        
   system('clear')
   D=Design()
   print("")
