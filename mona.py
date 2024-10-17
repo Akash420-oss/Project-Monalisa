@@ -3214,6 +3214,10 @@ else:
       s(0.25)  
   pre_style.stop()
   s(5)
+  if path.isdir(directory)==True:
+      pass
+  else:
+      system(f"mkdir {directory};mv protocol.json {directory}")
   system('clear')
   D=Design()
   print("")
