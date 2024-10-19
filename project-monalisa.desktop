@@ -1,5 +1,5 @@
 [Desktop Entry]
-Exec=mona
+Exec=sudo mona
 GenericName=Monalisa
 Icon=project_mona
 Name=Monalisa
