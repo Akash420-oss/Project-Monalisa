@@ -1,5 +1,8 @@
-# Project Monalisa 😉
-It is a Networking based Project
+<div align="center">
+<img src="https://github.com/Akash420-oss/Project-Monalisa/blob/main/project_mona.png"/>
+<h1>Project Monalisa 😉</h1>
+<p><b>It is a Networking based Project</b></p>
+</div>
 
 ## Table of Contents
 * [What is it 🤔?](#about-the-project)
@@ -32,20 +35,21 @@ Make sure you have Gnome Terminal, Firefox, Wireshark and Proxychains  on your l
   ```
 * If you are in Arch based linux.
   ```sh
-  sudo pacman -Syu --noconfirm && pacman -S gnome-terminal firefox wireshark --noconfirm
+  yay -S project-monalisa
   ```
+  * Or you can directly check it out from AUR(Arch User Repository)👉 https://aur.archlinux.org/packages/project-monalisa
 ### Installation
 1. Clone the repo
    ```sh
    git clone https://github.com/Akash420-oss/Project-Monalisa.git
    ```
-2. After that go to the directory then install the all files from requirements.txt via pip.
+2. After that go to the directory then run install file.
    ```sh
-   sudo pip install -r requirements.txt
+   bash install.sh
    ```
 3. Then run this command.
    ```sh
-   sudo python3 mona.py
+   sudo mona
    ```
  
 ## Contact
