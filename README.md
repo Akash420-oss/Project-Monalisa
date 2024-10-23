@@ -37,7 +37,7 @@ Make sure you have Gnome Terminal, Firefox, Wireshark and Proxychains  on your l
   ```sh
   yay -S project-monalisa
   ```
-  * Or you can directly check it out from AUR(Arch User Repository)👉 https://aur.archlinux.org/packages/project-monalisa
+  * Or you can directly check it out from AUR(Arch User Repository): https://aur.archlinux.org/packages/project-monalisa
 ### Installation
 1. Clone the repo
    ```sh
