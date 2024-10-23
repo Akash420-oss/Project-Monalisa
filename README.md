@@ -1,5 +1,5 @@
 <div align="center">
-<img src="https://github.com/Akash420-oss/Project-Monalisa/blob/main/project_mona.png"/>
+<img src="https://github.com/Akash420-oss/Project-Monalisa/blob/master/project_mona.png"/>
 <h1>Project Monalisa 😉</h1>
 <p><b>It is a Networking based Project</b></p>
 </div>
