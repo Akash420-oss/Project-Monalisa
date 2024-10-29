@@ -8,7 +8,7 @@
 * [What is it 🤔?](#about-the-project)
   * [Built With](#built-with)
 * [Getting Started](#getting-started)
-   * [Requirements](#requirements)
+   * [Dependencies](#requirements)
    * [Installation](#installation-guide)
 * [Contact](#contact)
 * [License](#license)
@@ -27,11 +27,21 @@ It will ask you some questions and you have to give the answers of it because yo
 ## Getting Started
 It will run only on Linux Machine.
 
-### Requirements
-Make sure you have Gnome Terminal, Firefox, Wireshark and Proxychains  on your linux machine.
+### Dependencies
+<b>Make sure you have:</b> 
+
+    * Gnome Terminal
+    * Firefox
+    * Wireshark
+    * Proxychains
+    * TCPdump
+    * Tshark 
 * If you are in Debian based linux.
+
+  * Then download debian file from: https://github.com/Akash420-oss/Project-Monalisa/releases/tag/Project-Monalisa0.1.0
+
   ```sh
-  sudo apt-get update -y && apt-get install gnome-terminal firefox wireshark -y
+  sudo dpkg -i project-monalisa.deb
   ```
 * If you are in Arch based linux.
   ```sh
